@@ -21,10 +21,11 @@ NEWS
         to be implemented in the main tree.
         Stil both 100% cruft and content free ;-)
     	
-        On a related note, the armour error you will get upon loading the data
-        set is due to the fact that the default (non existant) craft you fly
-        has a mass of 0.  I will use a dummy units.csv file in the future to
-        remove this error.
+        Known Issues:
+          + The armour error you will get upon loading the data set is due to
+            the fact that the default (non existant) craft you fly has a mass
+            of 0.  A units.csv file will fix this.
+          + The make system will not work due to non-existant directories.
 
 2004-11-24  Daniel Aleksandrow  <dandandaman@users.sourceforge.net>
 
