@@ -1,0 +1,13 @@
+2005-02-09  Daniel Aleksandrow  <dandandaman@users.sourceforge.net>
+
+	* (Build System)
+	Finished a working version of the autoconf and make system.	 It's more
+	basic than initially intended, but still meets all current requirements.
+    Version 20050209 done.
+
+
+2004-11-24  Daniel Aleksandrow  <dandandaman@users.sourceforge.net>
+
+	* (Everything)
+	Finally got around to making a sustained effort at doing something.
+    Version 20041124 done.
