@@ -1,3 +1,12 @@
+2005-08-06  Daniel Aleksandrow  <dandandaman@users.sourceforge.net>
+
+	* (Copyright Update)
+	Updated Copyright years to 2005.
+	* (Planning Documentation)
+	Committed some basic planning documentation to the resources module for
+	those interested.
+
+
 2005-02-09  Daniel Aleksandrow  <dandandaman@users.sourceforge.net>
 
 	* (Build System)
