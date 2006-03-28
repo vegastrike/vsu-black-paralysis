@@ -1,0 +1,13 @@
+cockpits/disabled/light_ecm.ani cockpits/disabled/light_ecm.ani
+-.1 .13333
+.093 -.633
+8 .2 interpolateFrames
+
+cockpits/disabled/light_ecm01.png
+cockpits/disabled/light_ecm02.png
+cockpits/disabled/light_ecm03.png
+cockpits/disabled/light_ecm04.png
+cockpits/disabled/light_ecm04.png
+cockpits/disabled/light_ecm03.png
+cockpits/disabled/light_ecm02.png
+cockpits/disabled/light_ecm01.png
