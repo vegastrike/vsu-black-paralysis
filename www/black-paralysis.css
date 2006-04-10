@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 1%;
+	background-color: #BEC8A0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #46493B;
+}
+fieldset {
+	margin: 10%;
+	background-repeat: repeat;
+	background-image: url(resources/stardrop.jpg);
+	background-attachment: fixed;
+	color: #FFFFFF;
+	border-color: #BEC8A0;
+	border-style: inset;
+	border-width: thick;
+	font-size: small;
+}
+legend {
+	padding: 5px;
+	background-color: #BEC8A0;
+	color: #46493B;
+	border-color: #BEC8A0;
+	border-style: ridge;
+	font-style: italic;
+	font-weight: bold;
+	font-size: small;
+}
+div.body {
+	background-color: #CDD2B4;
+	border-color: #BEC8A0;
+	border-style: inset;
+	border-width: thick;
+}
+div.header-menu {
+	padding-right: 3%;
+	text-align: right;
+	font-size: small;
+	font-weight: bold;
+	color: #000000;
+	background-color: #BEC8A0;
+}
+
+div.footer-text {
+	position: relative;
+	left: 10px;
+	top: 10px
+}
+
+div.footer-images {
+	position: absolute;
+	right: 1.5%;
+}
+
+h1 {
+	font-size: x-large;
+	font-style: italic;
+}
+h2 {
+	padding-left: 5%;
+	font-size: x-large;
+	font-style: italic;
+}
+a.menu-item:link, a.menu-item:active, a.menu-item:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #46493B;
+}
+a.menu-item:hover {
+	text-decoration: none; color: #ffffff;
+}
+span.datemod {
+	font-size: x-small;
+	font-style: italic;
+}
+img {
+	font-size: x-small;
+	font-style: italic;
+	border-width: 0;
+}
+a:link {
+	color: #f3f9d8;
+	font-weight: bold;
+	}
+a:hover {
+	color: #e8f3b7;
+	font-weight: bold;
+	text-decoration: none;
+	}

@@ -1,0 +1,25 @@
+name: Black-Paralysis
+files: /home/daniel/devel/black-paralysis/www/resources/sfnews.xslt
+files: /home/daniel/devel/black-paralysis/www/index.html
+files: /home/daniel/devel/black-paralysis/www/black-paralysis.css
+files: /home/daniel/devel/black-paralysis/www/screenshots.html
+files: /home/daniel/devel/black-paralysis/www/template.html
+files: /home/daniel/devel/black-paralysis/www/about.html
+files: /home/daniel/devel/black-paralysis/www/download.html
+basedir: /home/daniel/devel/black-paralysis/www/
+webdir: 
+template: /home/daniel/devel/black-paralysis/www/template.html
+view_main_toolbar: 1
+view_left_panel: 1
+view_custom_menu: 1
+view_html_toolbar: 1
+word_wrap: 0
+recent_files: /home/daniel/devel/black-paralysis/www/resources/sfnews.xslt
+recent_files: /home/daniel/devel/black-paralysis/www/index.html
+recent_files: /home/daniel/devel/black-paralysis/www/black-paralysis.css
+recent_files: /home/daniel/devel/black-paralysis/www/screenshots.html
+recent_files: /home/daniel/devel/black-paralysis/www/template.html
+recent_files: /home/daniel/devel/black-paralysis/www/about.html
+recent_files: /home/daniel/devel/black-paralysis/www/download.html
+opendir: /home/daniel/devel/black-paralysis/www/resources
+savedir: /home/daniel/devel/black-paralysis/www/resources

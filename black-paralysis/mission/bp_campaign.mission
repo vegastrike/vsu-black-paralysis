@@ -10,7 +10,7 @@
 		<var name="mission_name" value="Privateer Mission" />
 		<var name="difficulty" value=".05"/><!--good starting difficulty here-->
 		<var name="system" value="Arachnis/Sigma" />
-        <var name="num_players" value="1" />
+		<var name="num_players" value="1" />
 		<var name="description" value="Like, whoa." />
 		<var name="savegame" value="explore_universe_difficulty" />
 	</variables>
