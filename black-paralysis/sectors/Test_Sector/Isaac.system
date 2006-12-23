@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<system name="Isaac" background="backgrounds/sigma" nearstars="1" stars="1" starspread="1"  x="0" y="0" z="0" scalesystem="100">
+	<Light>
+		<ambient red=".03" green="0.03" blue="0.03" />
+		<diffuse  red="1" green="1" blue="1" />
+		<specular  red="1" green="1" blue="1" />
+	</Light>
+
+
+    <planet name="Awe" file="sol/sun.png" radius="695500" gravity="20" x="0" y="0" z="0"  Red=".9" Green=".9" Blue=".9" ReflectNoLight="true" light="0">
+        <fog>
+            <FogElement file="atmosphere_body.bfxm" ScaleAtmosphereHeight="1.000" red=".9" blue=".7" green=".8" alpha="1.0" dired="1" diblue="1" digreen="1" dialpha="1" concavity=".3" focus=".6" minalpha="0" maxalpha=".5"/>
+            <FogElement file="atmosphere_halo.bfxm" ScaleAtmosphereHeight="1.000" red=".9" blue=".7" green=".8" alpha="1.0" dired="1" diblue="1" digreen="1" dialpha="1" concavity=".3" focus=".6" minalpha="0" maxalpha=".5"/>
+        </fog>
+
+        <planet name="Wistfullness" file="sol2/mercury-trew.jpg" radius="2439.5" gravity="20" ri="46e6" rj="0" rk="0" sk="-69.8e6" sj="0" si="0" day="5053.1960" Year="757976.9624" position="0"/>
+
+        <planet name="Jollity" file="sol2/jupiter_vgr2-Jonsson.jpg" radius="71492.0" gravity="20" ri="740.5e6" rj="0" rk="0" sk="-816.6e6" sj="0" si="0" day="35.640" Year="37331371.3686" position="0">
+
+            <!-- Main ring -->
+            <Ring file="planets/ring.png" innerradius="122800" outerradius="129200" wrapx="100" wrapy="1" year="1e11"/>
+
+            <planet name="Jupiter: Jovi"       file="sol/io.png"       radius="1815" gravity="0" ri="422000"  sk="-422000"  year="15242.40"   day="10.000" />
+            <planet name="Jupiter: Exube"   file="sol/europa.png"   radius="1569" gravity="0" ri="671000"  sk="-671000"  year="30596.87" day="70.000" position=".1" />
+
+            <planet name="Jump Point: Calion System" file="sol/ganymede.png" radius="2631" gravity="0" ri="1070000" sk="-1070000" year="61650.412" position= ".3" destination="Test_Sector/Calion" />
+            <planet name="Jump Point: Nan System" file="sol/callisto.png" radius="2400" gravity="0" ri="1883000" sk="-1883000" year="143807.88" position=".8" destination="Test_Sector/Nan" />
+
+
+            <unit name="Humorous HE3 installation" file="refinery" gravity="0" ri="1470000" sk="-1470000" year="768000000" position="0.52" />
+        </planet>
+    </planet>
+</system>
