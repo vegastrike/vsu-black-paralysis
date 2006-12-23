@@ -1,3 +1,11 @@
+2006-12-23  Daniel Aleksandrow  <dandandaman@users.sourceforge.net>
+
+	* (Cockpit)
+	Updated the cockpit HUD to Phelden's most recent version.
+	* (Systems)
+	Committed some basic systems and some textures to go with them.
+
+
 2005-08-06  Daniel Aleksandrow  <dandandaman@users.sourceforge.net>
 
 	* (Copyright Update)
