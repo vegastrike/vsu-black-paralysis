@@ -1,8 +1,8 @@
 Things to do to resurrect:
 
-[ ] Integrate `www` content into the vega-strike.org website as a sub-website (vega-strike.org/black-paralysis)
-[ ] Figure out what to do with the `resources` folder
-[ ] Move everything under `black-paralysis` into the root
+[ ] Integrate `www` content into the vega-strike.org website as a sub-website (vega-strike.org/black-paralysis) (see `imported` branch)
+[ ] Figure out what to do with the `resources` folder (see `imported` branch)
+[X] Move everything under `black-paralysis` into the root
 [ ] Migrate from Autotools to CMake
 [ ] Update against the 0.9.x VS Engine
 
