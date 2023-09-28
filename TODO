@@ -5,6 +5,7 @@ Things to do to resurrect:
 [X] Move everything under `black-paralysis` into the root
 [ ] Migrate from Autotools to CMake
 [ ] Update against the 0.9.x VS Engine
+[ ] Map/import the sounds files from VS:UtCS and update the resources
 
 NOTE: The VSU:BP game was last worked on in 2007. The only release was Sept 2005. There is likely
 a very large gap between the state of the VS Engine (version 0.4.3, June 2005; 0.4.9 October, 2007)
