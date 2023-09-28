@@ -1,11 +1,8 @@
+[VSU: Black-Paralysis](http://black-paralysis.sourceforge.net>)
+                         
+Version  20050806
 
-                         VSU: Black-Paralysis
-               <http://black-paralysis.sourceforge.net>
-                         
-                           Version  20050806
-                         
-               Copyright © 2003-2005  Daniel Aleksandrow
-                  <dandandaman@users.sourceforge.net>
+Copyright ©2003-2005  [Daniel Aleksandrow](dandandaman@users.sourceforge.net)
 
 SHORT TERM PLANNING
 -------------------
@@ -14,15 +11,15 @@ SHORT TERM PLANNING
 Release 2:
 ----------
 
- + Two systems
- + Three planets
- + One base screen (shared)
- + Important python scripts (economy, campaigns, missions, dj)
- + One ship (with eject dock)
- + Upgrades?
- + Splash and Death screens
- + Sample mission files (with documentation)
- + Explanation of included features, and use documentation
++ Two systems
++ Three planets
++ One base screen (shared)
++ Important python scripts (economy, campaigns, missions, dj)
++ One ship (with eject dock)
++ Upgrades?
++ Splash and Death screens
++ Sample mission files (with documentation)
++ Explanation of included features, and use documentation
 
 
 
