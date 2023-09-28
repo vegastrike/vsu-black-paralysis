@@ -79,10 +79,10 @@ pk3 : ai.pk3 animations.pk3 cockpits.pk3 communications.pk3 meshes.pk3 mission.p
 python : bases modules
 
 bases : $(call psearch,bases/,*.py)
-	python -OO -c 'import compileall; compileall.compile_dir("bases")'
+	python3 -OO -c 'import compileall; compileall.compile_dir("bases")'
 
 modules : $(call psearch,modules/,*.py)
-	python -OO -c 'import compileall; compileall.compile_dir("modules")'
+	python3 -OO -c 'import compileall; compileall.compile_dir("modules")'
 
 ai.pk3 : $(call psearch,ai/,*.csv *.xml *.xai)
 	$(call package,ai,$^)

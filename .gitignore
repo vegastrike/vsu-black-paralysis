@@ -1,2 +1,15 @@
+# Logs
+*.log
+
 # VIM files
-.sw?
+*.sw?
+
+# Autotools junk
+*~
+autom4te.cache
+Makefile
+config.h
+config.status
+
+# Build stuff
+*.pk3
