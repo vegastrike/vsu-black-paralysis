@@ -1,9 +1,9 @@
-AC_INIT(VSU: Black Paralysis, 20050209, black-paralysis-users@lists.sourceforge.net, black-paralysis)
+AC_INIT([VSU: Black Paralysis],[20050209],[black-paralysis-users@lists.sourceforge.net],[black-paralysis])
 AC_CONFIG_SRCDIR(Version.txt)
 
-AC_CONFIG_HEADER(config.h)
+AC_CONFIG_HEADERS([config.h])
 
-AC_PREREQ(2.50)
+AC_PREREQ([2.71])
 AC_PROG_MAKE_SET()
 AC_PROG_INSTALL()
 
@@ -12,15 +12,13 @@ dnl Define the optional parameters
 PK3="0"
 
 AC_ARG_ENABLE(	pk3,
-				AC_HELP_STRING([--enable-pk3=COMPRESSION],
-				[Enable compression of pk3 volumes (COMPRESSION=0, default)]),
+				AS_HELP_STRING([--enable-pk3=COMPRESSION],[Enable compression of pk3 volumes (COMPRESSION=0, default)]),
 				[PK3="$enableval"])
 
 HOMEDIR="AC_PACKAGE_TARNAME"
 
 AC_ARG_ENABLE(	homedir,
-				AC_HELP_STRING([--enable-homedir=HOMEDIR],
-				[Change the location of AC_PACKAGE_TARNAME's homedir folder (HOMEDIR=AC_PACKAGE_TARNAME, default)]),
+				AS_HELP_STRING([--enable-homedir=HOMEDIR],[Change the location of AC_PACKAGE_TARNAME's homedir folder (HOMEDIR=AC_PACKAGE_TARNAME, default)]),
 				[HOMEDIR="$enableval"])
 
 VALID="0"
@@ -47,4 +45,5 @@ AC_SUBST(ZIP)
 AC_SUBST(PK3)
 AC_SUBST(HOMEDIR)
 
-AC_OUTPUT(Makefile)
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
