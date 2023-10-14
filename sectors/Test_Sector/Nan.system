@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<system name="Sigma" background="backgrounds/sigma" nearstars="500" stars="1000" starspread="150">
+<Light>
+	<ambient red="0.000000" green="0.000000" blue="0.000000"/>
+	<diffuse red="1.000000" green="0.731131" blue="0.689742"/>
+	<specular red="1.000000" green="0.534553" blue="0.475744"/>
+</Light>
+</system>
