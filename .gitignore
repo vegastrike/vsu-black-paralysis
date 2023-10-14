@@ -1,0 +1,10 @@
+*.sw?
+
+config.h
+config.log
+config.status
+configure.ac~
+configure~
+
+Makefile
+autom4te.cache
