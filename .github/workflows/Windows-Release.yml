@@ -43,7 +43,7 @@ jobs:
           echo "SHA: $env:SHORT_SHA"
 
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Install CMake
         uses: lukka/get-cmake@v4.4.5
